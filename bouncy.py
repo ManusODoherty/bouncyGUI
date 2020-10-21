@@ -28,7 +28,7 @@ class Bouncy(EasyFrame):
 
 		self.height = self.addFloatField(value = 0.0, row = 1, column = 1)
 		self.index = self.addFloatField(value = 0.0, row = 2, column = 1)
-		self.bounces = self.addFloatField(value = 0.0, row = 3, column = 1, width = 20)
+		self.bounces = self.addIntegerField(value = 0.0, row = 3, column = 1, width = 20)
 		self.distance = self.addFloatField(value = 0.0, row = 5, column = 1, precision = 2, state = "readonly")
 
 		#add the command button
